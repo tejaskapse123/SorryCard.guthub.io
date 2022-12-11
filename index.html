@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorry Card </title>
+    <link rel="icon" type="image/x-icon"
+        href="https://www.pinclipart.com/picdir/big/69-695656_-sorry-emoji-clipart.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        h1 {
+            text-align: center;
+            font-family: "Source Sans Pro", sans-serif;
+            font-weight: normal;
+            font-size: 70px;
+            color: aqua;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: "Source Sans Pro", sans-serif;
+            font-weight: normal;
+            font-size: 65px;
+            color: aqua;
+        }
+
+        body {
+            background-image: linear-gradient(to bottom, #0030ff, #ff00ee);
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        .song {
+            text-align: center;
+            font-size: 37px;
+            font-style: italic;
+            font-weight: 700;
+            color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center mt-5">
+        <audio autoplay loop>
+            <source src="horse.ogg" type="audio/ogg">
+            <source
+                src="./X2Download.app - 🥀 King _ Maan Meri Jaan - Song Status _ New Black Screen Status _ Love WhatsApp Status (320 kbps).mp3"
+                type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+        <canvas id="Canvas" width="800" height="600" style="position:absolute; left:5; top:5">Can't Load Canvas</canvas>
+        <video width="700" height="500" autoplay loop>
+            <source src="./tenor_AdobeExpress (1).mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+
+
+    </div>
+    <div class="container d-flex justify-content-center mt-5 flex-column">
+        <h1>Oye Saku Sorry n g!!!! <br>😔❤️🥺❤️🥺😔
+        </h1>
+        <br><br>
+        <h2>Maff karun de n 😔🥺 <br> plzzzz 😔🥺</h2>
+        <br>
+        <div class="song">
+            Main Teri Aankhon Mein<br>
+            Udaasi Kabhi Dekh Sakda Nahi 🥺🥺❤<br>
+            Tujhe Khush Main Rakhunga Sohneya ❤😘😘<br>
+            <br>
+            Main Tere Hothon Pe<br>
+            Khamoshi Kabhi Dekh Sakda Nahi🥺🤫🥺❤<br>
+            Saari Baatein Main Sununga Sohneya 🥺🧏🏻🥰<br>
+            <br>
+            Tere Dil Se Na Kabhi Khelunga<br>
+            Saare Raaz Apne Main Tujhko De Doonga 🥺😘👩🏻‍❤‍👨🏼<br>
+            Meri Jaan Toone Mujhko Paagal Hai Kiya❤🤪😘🥺<br>
+            Mera Lagda Na Jiya Tere Bagair🥺🥺<br>
+            <br>
+            Tu Maan Meri Jaan<br>
+            Main Tujhe Jaane Na Doonga❤🥺😘❤🥺<br>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        videoPlay.addEventListener('timeupdate', function () {
+            putOverlay();
+        });
+        function putOverlay() {
+            console.log(videoPlay.currentTime);
+            console.log("another frame");
+        }
+    </script>
+</body>
+
+</html>
